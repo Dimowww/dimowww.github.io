@@ -1,6 +1,6 @@
 var articles = [
     {
-        title: 'Article 1',
+        title: 'Home',
         link: '1str.html'
     }
 ]
