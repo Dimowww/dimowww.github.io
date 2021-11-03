@@ -11,7 +11,7 @@ for (article = 0; article < amountOfArticles; article++) {
     blog += `
     <li> 
         <a href= "articles/${articles[article].link}" class="article"> 
-            <h3>${articles[article].title}</h3>
+            <h5>${articles[article].title}</h5>
         </a>
     </li> `
 }

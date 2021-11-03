@@ -9,8 +9,13 @@
     margin-left:1450px;
 }
 .blog{
-    color: #FFAA00;
+    color:#2567FF;
+    margin-right: 700px;
 }
 .article{
-    color: #FFAA00;
+    color:white;
+    margin-right: 800px;
+}
+.btn-group{
+    margin-right: 900px;
 }
