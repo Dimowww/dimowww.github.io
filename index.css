@@ -15,6 +15,7 @@
 .article{
     color:white;
     margin-right: 800px;
+    display: flex;
 }
 .btn-group{
     margin-right: 900px;
