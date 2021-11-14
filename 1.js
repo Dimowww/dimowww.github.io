@@ -1,6 +1,6 @@
 var articles = [
     {
-        title: 'Домой',
+        title: '#',
         link: '1str.html'
     }
 ]
