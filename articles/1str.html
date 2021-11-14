@@ -32,6 +32,29 @@
         <div class="ic">
                 <a href="https://dimowww.github.io/"> Домой</a>
         </div>
+        <script>
+            function addTask() {
+                var x = prompt('Колличество занятий ?')
+                y = 1200
+                z = x * y 
+                f = 'рублей'
+                var tasks_list = document.getElementById('current');
+                var new_tasks = document.createElement('li');
+                new_tasks.innerHTML = z, f;
+                tasks_list.appendChild(new_tasks);
+            }
+            function delTask() {
+                var tasks_list = document.getElementById('current');
+                var tasks_number = prompt('What the number of your notes you are wanting to delite ? ');
+                tasks_list.removeChild(tasks_list.childNodes[tasks_number - 1]);
+            }
+        </script>
+        <input value= 'Click here' type= 'button' onclick="addTask()">
+        <input value= 'Delite your note' type= 'button' onclick="delTask()">
+        <h1> Your nothes </h1>
+        <ol id= 'current'> </ol>
+        <h1> Finish of your nothes </h1>
+        <ol class= 'done'> </ol>
     </main>
     <footer class="footer"> </footer>
 </body>
