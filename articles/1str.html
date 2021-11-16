@@ -39,7 +39,7 @@
                 z = x * y 
                 var tasks_list = document.getElementById('current');
                 var new_tasks = document.createElement('li');
-                new_tasks.innerHTML = z;
+                new_tasks.innerHTML = string(z) + 'рублей';
                 tasks_list.appendChild(new_tasks);
             }
         </script>
@@ -47,6 +47,15 @@
         <h1> Your nothes </h1>
         <ol id= 'current'> </ol>
     </main>
-    <footer class="footer"> </footer>
+    <footer class="footer">
+        <div class='footer-logo'>
+            <div class='copyright'>All rights reserved 2021...</div>
+        </div>
+        <div class="footer-img">
+            <a href="https://vk.com/s.larionova_ecole">
+                <img src="vk.png" class= 'icon'>
+            </a>
+        </div>
+   </footer>
 </body>
 </html>
