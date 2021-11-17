@@ -1,32 +1,42 @@
+.navbar{
+    background-color: #1921B1;
+    height: 70px;
+}
 
-.nav-item{
-    margin-top:30px;
-    margin-right: 0px;
-    margin-left:0px;
+.navbar-brand{
+    color:white;
 }
-.nav-ite{
-    margin-top:30px;
-    margin-right: 0px;
-    margin-left:1450px;
-}
+
 .blog{
-    color:#2567FF;
+    color:#1921B1;
+    margin-left: 500px;
+    margin-top: -45px;
     
 }
 .article{
     color:white;
     display: flex;
     text-decoration: none; 
-    margin-right: 1700px;
+    margin-right: 170px;
     
 }
 
 .main-1{
-    background-color: #FFB740;
+    background-color: #FFE500;
     height: 100px;
 }
 .main{
-    background-color: #FFB740;
+    background-color: #FFE500;
+}
+
+.main-img1{
+    margin-top: -600px;
+    margin-left: 50px;
+}
+
+.main-img2{
+    margin-top: -500px;
+    margin-left: 1550px;
 }
 
 .m-n{
@@ -35,17 +45,28 @@
 }
 
 .main-2{
-    background-color: #FFB740;
-    height: 225px;
+    background-color:#FFE500;
+    height: 350px;
 }
 
 .footer{
-    background-color: #2567FF;
+    background-color: #FF8E00;
+    height: 120px;
 }
+
 .footer-img{
     margin-left: 1800px;
 }
 .copyright{
     color: white;
+}
+
+.footer-img1{
+    margin-top: -100px;
+    margin-left: 1700px;
+}
+
+.icon{
+    margin-top: -10px;
 }
 
