@@ -13,6 +13,15 @@
     margin-top: -45px;
     
 }
+
+.blog1{
+    color:#1921B1;
+    position:fixed;
+    margin-left: 700px;
+    margin-top: 5px;
+    
+}
+
 .article{
     color:white;
     display: flex;

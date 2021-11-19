@@ -14,24 +14,24 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand  navbar-dark bg-primary">
+        <nav class="navbar">
             <div class="navbar-collapse">
                 <div class="navbar-nav">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                           <img src="777.png" alt="" width="100" height="50" 
                           class="d-inline-block align-text-top">
-                          Школа Французского языка  
+                          Школа Французского языка
                         </a>
                     </div>
                 </div>
             </div>
+            <div class="bar">
+                <a href="https://dimowww.github.io/"> Домой</a>
+            </div>
         </nav>
     </header>
     <main class="main"> 
-        <div class="ic">
-                <a href="https://dimowww.github.io/"> Домой</a>
-        </div>
         <script>
             function addTask() {
                 var x = prompt('Колличество занятий ?')
@@ -43,9 +43,12 @@
                 tasks_list.appendChild(new_tasks);
             }
         </script>
-        <input value= 'Click here' type= 'button' onclick="addTask()">
-        <h1> Your nothes </h1>
+        <input value= 'Для расчета нажмите сюда' type= 'button' onclick="addTask()">
+        <h1> Ваши расчеты </h1>
         <ol id= 'current'> </ol>
+        <div class="imf">
+            <img src="cParisCollage_v2_500x417 (1).jpg" alt="" width="900" height="800">
+        </div>
     </main>
     <footer class="footer">
         <div class='footer-logo'>
@@ -55,6 +58,10 @@
             <a href="https://vk.com/s.larionova_ecole">
                 <img src="vk.png" class= 'icon'>
             </a>
+        </div>
+        <div class="footer-img1">
+            <a href="https://www.instagram.com/larionova4241/">
+                <img src="instagram.png" class="icons">
         </div>
    </footer>
 </body>
