@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #1921B1;
+    background-color: #FFDC40;
     height: 70px;
 }
 
@@ -8,27 +8,34 @@
 }
 
 .blog{
-    color:#1921B1;
+    color:#FFDC40;
     margin-left: 500px;
     margin-top: -45px;
     
 }
 
 .blog1{
-    color:#1921B1;
+    color:#FFDC40;
     position:fixed;
     margin-left: 700px;
     margin-top: 5px;
     
 }
 
+.main-1{
+    background-color: #4575D4;
+    height: 25px;
+}
+
 .bar{
     position: fixed;
     padding-bottom: 10px;
     padding-left: 555px;
+    text-decoration:none;
+    color: white;
 }
 .main{
-    background-color: #FFE500;
+    background-color: #4575D4;
     height: 950px;
 }
 
@@ -48,30 +55,37 @@
 }
 
 .main-2{
-    background-color:#FFE500;
-    height: 350px;
+    background-color:#4575D4;
+    height: 45px;
 }
 
 .footer{
-    background-color: #FF8E00;
-    height: 120px;
+    background-color: #FF9340;
+}
+
+.inp{
+    margin-top:px;
+    margin-left: 200px;
+    color: white;
 }
 
 .footer-img{
     margin-left: 1800px;
+    margin-top: -10px;
 }
 .copyright{
     color: white;
 }
 
 .footer-img1{
-    margin-top: -100px;
-    margin-left: 1700px;
+    margin-top: -60px;
+    margin-left: 1740px;
 }
 
 .icon{
     margin-top: -10px;
 }
 .imf{
-    margin-left: 500px;
+    margin-left: 400px;
+    margin-top: 30px;
 }

@@ -31,24 +31,30 @@
             </div>
         </nav>
     </header>
+    <main class="main-1">
+    </main>
     <main class="main"> 
         <script>
             function addTask() {
                 var x = prompt('Колличество занятий ?')
                 y = 1200
-                z = x * y 
+                z = String(x * y) + ' рублей';
                 var tasks_list = document.getElementById('current');
                 var new_tasks = document.createElement('li');
                 new_tasks.innerHTML = z;
                 tasks_list.appendChild(new_tasks);
             }
         </script>
-        <input value= 'Для расчета нажмите сюда' type= 'button' onclick="addTask()">
-        <h1> Ваши расчеты </h1>
-        <ol id= 'current'> </ol>
-        <div class="imf">
-            <img src="cParisCollage_v2_500x417 (1).jpg" alt="" width="900" height="800">
+        <div class="inp">
+            <input value= 'Для расчета нажмите сюда' type= 'button' onclick="addTask()">
+            <h1> Ваши расчеты </h1>
+            <ol id= 'current'> </ol>
+            <div class="imf">
+                <img src="cParisCollage_v2_500x417 (1).jpg" alt="" width="900" height="800">
+            </div>
         </div>
+    </main>
+    <main class="main-2">
     </main>
     <footer class="footer">
         <div class='footer-logo'>
@@ -56,12 +62,12 @@
         </div>
         <div class="footer-img">
             <a href="https://vk.com/s.larionova_ecole">
-                <img src="vk.png" class= 'icon'>
+                <img src="vk.png" class= 'icon' width="60" height="60">
             </a>
         </div>
         <div class="footer-img1">
             <a href="https://www.instagram.com/larionova4241/">
-                <img src="instagram.png" class="icons">
+                <img src="instagram.png" class="icons" width="60" height="60" >
         </div>
    </footer>
 </body>
